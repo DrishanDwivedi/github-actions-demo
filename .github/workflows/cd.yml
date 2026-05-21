@@ -1,7 +1,7 @@
 name: CD Workflow
 on:
     workflow_run:
-        workflows: ["ci workflow"] #Trigger this workflow after the successful completion of "ci workflow"
+        workflows: ["ci workflow"] #Trigger this workflow 
         types: [completed]
 
 jobs: 
